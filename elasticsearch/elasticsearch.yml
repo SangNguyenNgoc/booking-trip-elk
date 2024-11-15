@@ -1,0 +1,11 @@
+#Tên của cụm Elasticsearch
+cluster.name: "docker-cluster"
+
+#Chỉ định địa chỉ mà Elasticsearch sẽ lắng nghe các kết nối (0.0.0.0 là lắng nghe trên mọi cổng)
+network.host: 0.0.0.0
+
+#Chạy ở chế độ single-node (một nút duy nhất).
+discovery.type: single-node
+
+#Bật tính năng bảo mật (security) của Elasticsearch, bao gồm việc yêu cầu xác thực và phân quyền cho các yêu cầu truy cập vào Elasticsearch.
+#xpack.security.enabled: true

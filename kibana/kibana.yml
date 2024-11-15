@@ -1,0 +1,8 @@
+#Đặt tên cho máy chủ Kibana, ở đây là "kibana".
+server.name: kibana
+
+#Thiết lập địa chỉ mà Kibana sẽ lắng nghe các kết nối.
+server.host: "0"
+
+#Địa chỉ của Elasticsearch mà Kibana sẽ kết nối để truy vấn dữ liệu.
+elasticsearch.hosts: ["http://elasticsearch:9200"]
